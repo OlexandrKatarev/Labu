@@ -1,6 +1,5 @@
 #include <iostream>
 
-// Базовий клас "Vehicle"
 class Vehicle {
 public:
     virtual void start() {
@@ -8,7 +7,6 @@ public:
     }
 };
 
-// Похідний клас "Car" від "Vehicle"
 class Car : public Vehicle {
 public:
     void start() override {
@@ -16,7 +14,6 @@ public:
     }
 };
 
-// Похідний клас "Motorcycle" від "Vehicle"
 class Motorcycle : public Vehicle {
 public:
     void start() override {
@@ -24,7 +21,6 @@ public:
     }
 };
 
-// Похідний клас "Bus" від "Vehicle"
 class Bus : public Vehicle {
 public:
     void start() override {
